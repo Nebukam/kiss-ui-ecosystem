@@ -1,0 +1,25 @@
+{
+  "name": "@nkm/kiss-ui-ecosystem",
+  "version": "0.0.1",
+  "description": "NKM / KISS UI Ecosystem",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nebukam/kiss-ui-ecosystem.git"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "doc": "jsdoc -c ./.jsdoc.conf.json"
+  },
+  "author": "Timothé Lapetite",
+  "license": "MIT",
+  "dependencies": {
+    "@nkm/collections": "file:../nkm-collections",
+    "@nkm/utils": "file:../nkm-utils",
+    "@nkm/common": "file:../nkm-common",
+    "@nkm/data-core": "file:../nkm-data-core",
+    "@nkm/actions": "file:../nkm-actions",
+    "@nkm/dialog": "file:../nkm-dialog",
+    "@nkm/style": "file:../nkm-style"
+  }
+}
